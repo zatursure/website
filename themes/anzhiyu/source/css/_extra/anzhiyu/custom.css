@@ -176,10 +176,6 @@ html.hide-aside .layout > div:first-child {
   }
 }
 
-[data-theme="dark"] #footer:before {
-  content: none;
-}
-
 @media screen and (max-width: 768px) {
   .layout > div:first-child:not(.recent-posts) {
     border-radius: 12px 12px 0 0;

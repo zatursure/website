@@ -1233,6 +1233,7 @@ inject:
     # 自定义js
     # - <script src="/js/xxx"></script>
     - <script defer src="https://collect.zako.net.cn/script.js" data-website-id="b933f971-ebd4-4429-82b2-d0953b64eddc"></script>
+    - <script>console.log('%cZ%c a%c t%c u%c r%c s%c u%c r%c e', 'color:#ef4444;font-weight:bold;font-size:20px', 'color:#f97316;font-weight:bold;font-size:20px', 'color:#eab308;font-weight:bold;font-size:20px', 'color:#84cc16;font-weight:bold;font-size:20px', 'color:#22c55e;font-weight:bold;font-size:20px', 'color:#06b6d4;font-weight:bold;font-size:20px', 'color:#3b82f6;font-weight:bold;font-size:20px', 'color:#8b5cf6;font-weight:bold;font-size:20px', 'color:#ec4899;font-weight:bold;font-size:20px');</script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
