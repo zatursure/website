@@ -41,7 +41,7 @@ nav:
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
-  enable: false
+  enable: true
   days: [4-5, 5-12, 7-7, 9-18, 12-13]
 
 # Code Blocks (代码相关)
@@ -69,7 +69,7 @@ copy:
 social:
   Github: https://github.com/zatursure || anzhiyu-icon-github
   Email: mailto:zatursure@zako.net.cn || anzhiyu-icon-envelope
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+  BiliBili: https://space.bilibili.com/9700350 || anzhiyu-icon-bilibili
 
 # 作者卡片 状态
 author_status:
@@ -273,7 +273,7 @@ related_post:
   date_type: created # or created or updated 文章日期显示创建日或者更新日
 
 # figcaption (图片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # post_pagination (分页)
 # value: 1 || 2 || 3 || 4 || false
@@ -428,7 +428,7 @@ footer:
   owner:
     enable: true
     since: 2026
-  custom_text: 由 Hexo 与 Anzhiyu 驱动，记录 Zatursure 的技术实践与日常折腾。
+  custom_text:
   runtime:
     enable: true
     launch_time: 07/07/2026 00:00:00 # 网站上线时间
@@ -800,7 +800,7 @@ aside:
 
   card_announcement:
     enable: true
-    content: Zatursureの小窝正在慢慢建设中，主要记录技术实践、配置折腾和一些长期可复用的思考。
+    content: ？
   card_weixin:
     enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
